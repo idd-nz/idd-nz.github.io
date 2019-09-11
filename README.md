@@ -6,6 +6,36 @@ This is our course site!
 - [Blackboard](https://bb-gbc.blackboard.com)
 
 
+## Meeting Notes: Sept 11, 2019
+
+### Features
+- Student profiles
+  - Photo
+    * Unsplash
+  - Quote
+    *
+  - Name
+- Course list
+- Success stories from alumni
+
+
+### Content List
+Here are some must haves:
+- Header
+  - Logo
+  - Menu
+    * futurism (menu)
+    * code and theory
+    * joyce pring
+  - Search
+  
+
+  
+- Footer
+  - Copyright
+  - Social media links
+
+
 
 
 
