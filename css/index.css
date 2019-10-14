@@ -307,5 +307,46 @@ button{
 
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 500px){
+
+.search{
+	display: block;
+	position: relative;
+}
+
+.mainhead{
+	text-align: center;
+	margin-top: 100px;
+}
+
+h2{
+	position: absolute;
+	top:70%;
+	left:40%;
+}
+
+.pinfo{
+	position:absolute;
+	left: 45%;
+	top: 80%;
+}
+
+.program-nav{
+	margin-left: 120px;
+}
 	
+.social-media{
+	margin-left: 140px;
+}
+
+
+
+	
+
+
+
+
+
+
+
+}
