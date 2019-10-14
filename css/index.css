@@ -192,6 +192,8 @@ button{
 	text-align: center;
 	border-bottom: solid;
 	border-color: var(--secondary-a);
+
+	
 }
 
 .overview dt{
@@ -203,6 +205,66 @@ button{
 	font-size: 13px;
 }
 
+.pdf{
+	font-family: var(--non-heading);
+	padding: 19px;
+	
+}
 
+.pdf-head{
+	padding: 12px 12px 2px 12px;
+	text-align: center;
+	border-bottom: solid;
+	border-color: var(--secondary-a);
+}
 
+.pdf li{
+	list-style-type:none;
+	padding:5px;
+}
+
+.pa{
+	font-family: var(--non-heading);
+	padding: 19px;
+}
+
+.pa-head{
+	padding: 12px 12px 2px 12px;
+	text-align: center;
+	border-bottom: solid;
+	border-color: var(--secondary-a);
+	
+}
+
+.pa dt{
+	text-decoration: underline;
+	margin-top: 10px;
+}
+
+.pa li{
+	list-style-type:none;
+	padding:5px;
+	font-size: 13px;
+}
+
+.sim-prog{
+	font-family: var(--non-heading);
+	padding: 19px;
+}
+
+.sim-prog-head{
+	padding: 12px 12px 2px 12px;
+	text-align: center;
+	border-bottom: solid;
+	border-color: var(--secondary-a);
+}
+
+.sim-prog li{
+	list-style-type:none;
+	padding:5px;
+}
+
+.end{
+	font-family:var(--non-heading)
+}
 
