@@ -10,84 +10,109 @@
 	<body>
 		<header>
 			<div class="top">
-				<div class="logo">
-					<a href="index.html"><img src="img/GBC_Logo.jpg"  alt="George Brown College"></a>
-				</div>
-
+				
+				<a href="index.html"><img src="img/GBC_Logo.jpg" class="logo" alt="George Brown College"></a>
+				
 				<form class="search">
-					<input type="text" name="Search">
+					<!-- <input type="text" name="Search"> -->
 					<button><i class="material-icons">search</i></button>
 				</form>
-
-				<i class="material-icons">menu</i>
-			</div>
 			
-			<ul class="top-nav">
-				<li class="top"><a href="#">About</a></li>
-				<li class="top"><a href="#">Continuing Student</a></li>
-				<li class="top"><a href="#">International Student</a></li>
-				<li class="top"><a href="#">Alumni</a></li>
-				<li class="top"><a href="#">Employment</a></li>
-				<li class="top"><a href="#">Giving</a></li>
-			</ul>
+				<div class="dropdown">
+					<!-- <button class="menu">menu</button> -->
+					<i class="material-icons" class="menu">menu</i>
+					
+					<article class="content">
+						<a href="#">Programs ></a>
 
-			<div><a href="#">Programs ></a></div>
+						<ul class="nav">
+							<li class="nav-op"><a href="#">Home</a></li>
+							<li class="nav-op"><a href="#">Admission</a></li>
+							<li class="nav-op"><a href="#">Why George Brown</a></li>
+							<li class="nav-op"><a href="#">Current Students</a></li>
+						</ul>
+						
+						<ul class="top-nav">
+							<li class="top"><a href="#">About</a></li>
+							<li class="top"><a href="#">Continuing Student</a></li>
+							<li class="top"><a href="#">International Student</a></li>
+							<li class="top"><a href="#">Alumni</a></li>
+							<li class="top"><a href="#">Employment</a></li>
+							<li class="top"><a href="#">Giving</a></li>
+						</ul>
+					</article>
+				</div>
+
+			</div>
 
 		
-
-			<ul class="nav">
-				<li class="nav-op"><a href="#">Home</a></li>
-				<li class="nav-op"><a href="#">Admission</a></li>
-				<li class="nav-op"><a href="#">Why George Brown</a></li>
-				<li class="nav-op"><a href="#">Current Students</a></li>
-			</ul>
 		</header>
 
 		<main>
-			<h1>Interaction Design and Development (G103)</h1>
-			<div><a href="#">APPLY NOW ></a></div>
+			<div class="container">
+
+				<div class="mainhead">
+					<h1>Interaction Design and Development (G103)</h1>
+				</div>
+
+				<div class="schoolpic">
+					<img src="img/School-of-dsign.jpg" alt="School of Design">
+				</div>
+
+			</div>
+
+			<div class="descrip">
+				<p>Interaction Design is an interdisciplinary field merging design skills such as user experience, interface development and graphic design with coding fundamentals to create meaningful experiences between the user and digital platforms such as social media, websites, wearables and mobile devices.</p>
+			</div>
+
+
+
+
+			<h2>APPLY NOW</h2>
 			<ul class="students">
-				<li><a href="#">Domestic Student</a></li>
-				<li><a href="#">International Student</a></li>
+				<button><li class="studenttype"><a>Domestic</a></li></button>
+				
+				<button><li class="studenttype"><a>International</a></li>
+			</ul></button>
 
-			</ul>
-
-			<p>Interaction Design is an interdisciplinary field merging design skills such as user experience, interface development and graphic design with coding fundamentals to create meaningful experiences between the user and digital platforms such as social media, websites, wearables and mobile devices.</p>
+			
+		
+			<div class="pinfo"><h2>INFO</h2></div>
 
 			<nav>
 				<ul class="program-nav">
-					<li class="pnav-op"><a href="#">Overview</a></li>
-					<li class="pnav-op"><a href="#">Full Description</a></li>
-					<li class="pnav-op"><a href="#">Courses</a></li>
-					<li class="pnav-op"><a href="#">Career Opportunities</a></li>
-					<li class="pnav-op"><a href="#">Tuition</a></li>
-					<li class="pnav-op"><a href="#">Requirements</a></li>
-					<li class="pnav-op"><a href="#">Student Success</a></li>
-					<li class="pnav-op"><a href="#">School of Design</a></li>
+					<li class="pnav-op-1"><a>Overview</a></li>
+					<li class="pnav-op"><a>Full Description</a></li>
+					<li class="pnav-op"><a>Courses</a></li>
+					<li class="pnav-op"><a>Requirements</a></li>
+					<li class="pnav-op"><a>Tuition</a></li>
+					<li class="pnav-op"><a>Career Opportunities</a></li>
+					<li class="pnav-op"><a>Student Success</a></li>
+					<li class="pnav-op"><a>School of Design</a></li>
 				</ul>
 			</nav>
 
 		
 
-			<div><a href="index.html"><img src="img/School-of-dsign.jpg" alt="School of Design"></a></div>
+			
 
 			<article>
-				<dl>
-					<dt>OVERVIEW</dt>
+				<dl class="overview">
+					<dt class="overview-head">OVERVIEW</dt>
 
-					<dt>CODE</dt>
+					<dt>Code</dt>
 					<dd>G103</dd>
 
-					<dt>DURATION</dt>
+					<dt>Duration</dt>
 					<dd>3 years + optional field placement</dd>
 
-					<dt>CREDENTIAL</dt>
+					<dt>Credential</dt>
 					<dd>Ontario College Advanced Diploma</dd>
 
-					<dt>STARTING</dt>
+					<dt>Starting</dt>
 					<dd>September & January</dd>
 
-					<dt>EXPERIMENTAL LEARNING</dt>
+					<dt>Experimental Learning</dt>
 					<dd>Optional Field Placement (available based on acadxemic performance</dd>
 				</dl>	
 

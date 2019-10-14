@@ -3,14 +3,201 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Roboto&display=swap');
 
 
+/* 
+
+#0D5BA6 - gbc blue
+#FCFCFB - light grey
+#009DDC - light blue
+#FCB134 - yellow
+#000000 - black */
+
+html{
+	--heading: 'Playfair Display', serif;
+	--non-heading: 'Raleway', sans-serif;
+
+	--primary:#0D5BA6;
+	--secondary-a:#009DDC;
+	--secondary-b:#FCB134 ;
+	--background-a:#FCFCFB;
+	--background-b: #d9d7d6;
+}
+
+
 
 /* header */
 .top {
 	display:grid;
-	grid-template-columns: 2fr 0.5fr 0.5fr;
+	grid-template-columns: 2.5fr 0.25fr 0.25fr;
+	background-color:#0D5BA6;
+	padding:none;
+	height: 65px;
+
+	/* background-color: orange; */
 }
 
-/* .logo {
-	max-width:50%;
-	height: auto;
+img.logo{
+	width:70px;
+	/* height:80px; */
+	/* padding: 1em; */
+	margin: 0.5em;
+
+}
+
+.search{
+	margin: 0.5em;
+	display: none;
+}
+
+
+.menu{
+	background-color: transparent;
+	color:red;
+	/* padding: 15px; */
+	font-size:15px;
+	cursor:pointer;
+	/* border:none; */
+	margin:1em;
+	padding-top:3em;
+}
+
+.content{
+	position:relative;
+	/* display: inline-block; */
+	display: block;
+	/* float:right; */
+}
+
+.content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width:158px;
+	z-index: 1;
+}
+
+.content a:hover{
+	background-color: blue;
+	color: pink;
+
+}
+.dropdown:hover .content{
+	display: block;
+}
+
+.dropdown:hover .menu{
+	background-color: saddlebrown;
+}
+
+.schoolpic{
+	width:100%;
+}
+.container{
+	position: relative;
+}
+
+.mainhead{
+	position: absolute;
+	font-size: 1.25em;
+	top: 50%;
+	/* left: 1%; */
+	font-family: var(--heading) ;
+	font-weight: bold;
+	text-align: center;
+}
+
+.descrip{
+	font-family: var(--non-heading);
+	font-size: 15px;
+	position: relative;
+	text-align: center;
+	margin: 8px;
+}
+
+h2{
+	font-family: var(--heading);
+	font-weight: bold;
+	position: absolute;
+	top:72%;
+	left: 36%;
+	text-align: center;
+	/* margin:2em; */
+	text-decoration: underline;
+	
+}
+
+.students{
+	/* background-color: #FCB134; */
+	
+	margin:2.5em;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	list-style-type: none ;
+	grid-column-gap: 45px;
+	
+}
+
+button{
+	padding:10px 24px;
+	border-radius: 4px;
+	
+}
+
+.studenttype{
+	font-family: var(--non-heading);
+	font-size: 13px;
+	background-color: var(--secondary-b);
+}
+
+/* input[type=button]{
+	font-family: var(--non-heading);
 } */
+
+
+.pinfo{
+	position:absolute;
+	top:82%;
+	left:43%;
+	margin: 4px;
+	
+}
+
+.program-nav{
+	font-family: var(--non-heading);
+	display: grid;
+	grid-template-rows:auto;
+	grid-gap: 10px;
+	text-align: center;
+	list-style-type: none;
+	background-color: var(--background-b);
+  width: 280px;
+  border: double;
+	padding-bottom:25px;
+	padding-top: 25px;
+	margin: 20px;
+}
+
+.pnav-op-1{
+	padding: 5px;
+	background-color: var(--background-a);
+}
+
+.overview{
+	font-family: var(--non-heading);
+	padding: 19px;
+	
+}
+
+.overview-head{
+	padding: 12px 12px 2px 12px;
+	text-align: center;
+	border-bottom: solid;
+	border-color: var(--secondary-a);
+}
+
+dt{
+	padding: px;
+}
+
+
+
+
