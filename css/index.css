@@ -194,8 +194,13 @@ button{
 	border-color: var(--secondary-a);
 }
 
-dt{
-	padding: px;
+.overview dt{
+	text-decoration: underline;
+	margin-top: 10px;
+}
+
+.overview dd{
+	font-size: 13px;
 }
 
 
