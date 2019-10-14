@@ -343,6 +343,8 @@ h2{
 }
 
 @media screen and (min-width: 800px){
+
+/* for some reason couldn't take out the contents from the dropdown menu */
 .dropdown{
 	display:none;
 }
@@ -357,13 +359,12 @@ h2{
 
 .schoolpic{
 	padding-left: 120px;
+	height: auto;
 }
 
-h1{
-	text-align: center;
+.mainhead h1{
+	padding-left: 200px;
 }
-
-
 
 h2{
 	position: absolute;
