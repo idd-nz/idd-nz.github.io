@@ -22,8 +22,7 @@ html{
 	--background-b: #d9d7d6;
 }
 
-
-
+@media screen and (min-width: 320px){
 /* header */
 .top {
 	display:grid;
@@ -31,8 +30,6 @@ html{
 	background-color:#0D5BA6;
 	padding:none;
 	height: 65px;
-
-	/* background-color: orange; */
 }
 
 img.logo{
@@ -96,7 +93,7 @@ img.logo{
 }
 
 .dropdown:hover .menu{
-	background-color: ;
+	background-color: var(--secondary-b);
 }
 
 .schoolpic{
@@ -186,7 +183,7 @@ button{
   border: double;
 	padding-bottom:25px;
 	padding-top: 25px;
-	margin: 20px;
+	margin-left: 20px;
 }
 
 .pnav-op-1{
@@ -301,11 +298,14 @@ button{
 	display:grid;
 	grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
 	grid-gap:9px;
-	position:absolute;
-	top:277%;
-	left:37%;
+	position:relative;
+	/* top:277%;
+	left:37%; */
 	margin-top:12px;
-	
-	
+	margin-left: 73px;
 }
 
+}
+
+@media screen and (min-width: 600px){
+	
