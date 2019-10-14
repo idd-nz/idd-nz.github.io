@@ -130,7 +130,7 @@ h2{
 	font-family: var(--heading);
 	font-weight: bold;
 	position: absolute;
-	top:72%;
+	top:62%;
 	left: 36%;
 	text-align: center;
 	/* margin:2em; */
@@ -168,7 +168,7 @@ button{
 
 .pinfo{
 	position:absolute;
-	top:82%;
+	top:71%;
 	left:43%;
 	margin: 4px;
 	
@@ -302,7 +302,7 @@ button{
 	grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
 	grid-gap:9px;
 	position:absolute;
-	top:319%;
+	top:277%;
 	left:37%;
 	margin-top:12px;
 	
