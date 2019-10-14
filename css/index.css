@@ -340,8 +340,56 @@ h2{
 }
 
 
+}
 
-	
+@media screen and (min-width: 800px){
+.dropdown{
+	display:none;
+}
+.search{
+	margin: 20px;
+	/* margin-right: none; */
+}
+
+.schoolpic{
+	margin-top: 20px;
+}
+
+h2{
+	position: absolute;
+	top: 73%;
+	left: 43%;
+}
+
+.pinfo{
+	left: 375px;
+}
+.program-nav{
+	width: 480px;
+  border: double;
+	padding-bottom:25px;
+	padding-top: 25px;
+	margin-left: 150px;
+}
+
+.social-media{
+	margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
