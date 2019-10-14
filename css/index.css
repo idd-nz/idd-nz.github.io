@@ -48,36 +48,47 @@ img.logo{
 	display: none;
 }
 
+/* tried to make a drop down menu but the container opens on the other side */
+
+.dropdown{
+	font-family: var(--non-heading);
+}
+
+.nav li{
+	list-style-type: none;
+	padding:6px;
+	background-color: var(--background-b);
+}
+
+.top-nav li{
+	list-style-type: none;
+	padding:6px;
+	background-color:var(--background-a);
+}
 
 .menu{
 	background-color: transparent;
-	color:red;
-	/* padding: 15px; */
-	font-size:15px;
+	font-size:10px;
 	cursor:pointer;
-	/* border:none; */
-	margin:1em;
-	padding-top:3em;
+	margin:10px;
 }
 
 .content{
 	position:relative;
-	/* display: inline-block; */
 	display: block;
-	/* float:right; */
 }
 
 .content{
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
+	background-color: var(--background-a);
 	min-width:158px;
 	z-index: 1;
 }
 
 .content a:hover{
-	background-color: blue;
-	color: pink;
+	background-color: var(--secondary-a);
+	color: white;
 
 }
 .dropdown:hover .content{
@@ -85,12 +96,14 @@ img.logo{
 }
 
 .dropdown:hover .menu{
-	background-color: saddlebrown;
+	background-color: ;
 }
 
 .schoolpic{
 	width:100%;
 }
+
+/* main */
 .container{
 	position: relative;
 }
@@ -265,6 +278,34 @@ button{
 }
 
 .end{
-	font-family:var(--non-heading)
+	font-family:var(--non-heading);
+	font-size: 10px;
+	text-align: center;
+	padding: 5px;
+}
+
+/* footer */
+.foot{
+	font-family: var(--non-heading);
+	background-color: var(--secondary-b);
+	padding: 13px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.foot li{
+	list-style-type:none;
+}
+
+.social-media{
+	display:grid;
+	grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+	grid-gap:9px;
+	position:absolute;
+	top:319%;
+	left:37%;
+	margin-top:12px;
+	
+	
 }
 
